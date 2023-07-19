@@ -5,4 +5,4 @@ let SO = O * PI * O;
 console.log(SO);
 let CO = O * 2 * PI;
 console.log(CO);
-document.write(`S và C đường tròn là: ${SO}\(cm\) và  ${CO}\(cm\)`)
+document.write(`S và C đường tròn là: ${SO}\(cm\) và ${CO}\(cm\)`)

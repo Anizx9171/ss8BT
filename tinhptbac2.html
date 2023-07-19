@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let number_1 = +prompt("Nhập vào số thứ 1 bạn muốn")
+        console.log(number_1);
+        let number_2 = +prompt("Nhập vào số thứ 2 bạn muốn")
+        console.log(number_2);
+        let number_3 = +prompt("Nhập vào số thứ 3 bạn muốn")
+        console.log(number_3)
+        let delta = number_2*number_2-4*number_1*number_3
+        console.log(delta);
+        if (delta < 0) {
+            document.write("Phương trình vô nghiệm.")
+        } 
+        else if (delta > 0) {
+            document.write(`Phương trình có 2 nghiệm là: x1 = ${(-number_2 + delta)/(2*number_1)}, x2 =${(-number_2 - delta) / (2 * number_1)}`)
+        } 
+        else {
+            document.write(`pt có nghiệm kép x = ${-number_2/(2* number_1)}`)
+        }
+    </script>
+</body>
+
+</html>

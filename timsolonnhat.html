@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let number_1 = +prompt("Nhập vào số thứ 1 bạn muốn")
+        console.log(number_1);
+        let number_2 = +prompt("Nhập vào số thứ 2 bạn muốn")
+        console.log(number_2);
+        let number_3 = +prompt("Nhập vào số thứ 3 bạn muốn")
+        console.log(number_3)
+        let maxNumber = number_1
+        if (number_1 < number_2) {
+            maxNumber = number_2
+        }
+        if (number_2 < number_3) {
+            maxNumber = number_3
+        }
+        console.log(maxNumber)
+        document.write(`Số lớn nhất trong dẫy số ${number_1}, ${number_2}, ${number_3} là số\: ${maxNumber}`)
+    </script>
+</body>
+</html>
